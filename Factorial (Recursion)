@@ -1,6 +1,6 @@
 def factorial(n):
     if n == 0:
-        return 0  # ❌ Wrong: factorial(0) should be 1
+        return 1  # ✅ factorial(0) = 1
     return n * factorial(n - 1)
 
-print(factorial(5))  # Expected 120
+print(factorial(5))  # ✅ Output: 120
